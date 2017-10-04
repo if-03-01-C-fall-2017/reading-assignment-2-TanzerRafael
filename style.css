@@ -1,0 +1,67 @@
+body{
+	background-color: #00001a;
+}
+
+hr {
+  margin: 1px 0.75%;
+  border-color: orange;
+}
+
+div{
+	margin: 0 0.5%;
+	color: #99ffdd;
+}
+
+
+h1{
+	position: relative;
+	margin: 0;
+	text-align: center;
+}
+
+.greyBG{
+	background: #DDD;
+	border: solid;
+}
+.darkerBG{
+	background: #999;
+	border: solid;
+	border-left-width: 0;
+}
+
+.row{
+	margin-left: 4px;
+}
+
+.col-sm-2{
+	margin: 0 0 0 0;
+}
+
+.comment{
+	color: green;
+}
+
+h2{
+	margin: 0 1px;
+	color: orange;
+}
+
+h3{
+	color: #00ccff;
+}
+
+section{
+	border: solid;
+	border-color: orange;
+	border-width: 5px;
+	padding: 0 1px;
+	margin: -4.5px 1px 4px 1px;
+}
+
+table{
+	margin-left: 16px;
+}
+
+u{
+	color: #00ccff;
+}

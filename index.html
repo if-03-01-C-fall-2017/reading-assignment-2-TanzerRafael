@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>HelloCss</title>
+  </head>
+  <body>
+    <h1>Header1</h1>
+      <h2>HTML</h2>
+      <section>
+        <div>
+          <u><h3>About the Basics of html</h3></u>
+          <p>All HTML5 documents must start with a &lt;!DOCTYPE html&gt; tag.<br>
+          Followed by a &lt;html&gt; tag, that sits on the beginning and the end of a document.<br>
+          The head part is important for declaration and the title of the site.<br>
+          The displayed part is between the body tags.</p>
+         </div>
+    	   <hr />
+         <div>
+          <u><h3>About HTML elements</h3></u>
+          <p>An HTML element usually consists of a start tag and end tag, with the content inserted in between.<br>
+          HTML elements with no content are called empty elements. They don't need to be closed.<br />
+          HTML5 doesn't devide between lowercase or uppercase tags. &lt;P&gt; = &lt;p&gt;</p>
+        </div>
+        <hr>
+        <div>
+          <u><h3>About attributes</h3></u>
+          <p>
+            <ul>
+              <li>All HTML elements can have attributes</li>
+              <li>Attributes provide additional information about an element</li>
+              <li>Attributes are always specified in the start tag</li>
+              <li>Attributes usually come in name/value pairs like: name="value"</li>
+            </ul>
+            More commonly used attributes...
+            <table class="tabel table-striped">
+              <thead>
+                <tr>
+                  <th style="width: 15%">Attribute</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>alt</td>
+                  <td>Specifies an alternative text for an image, when the image cannot be displayed</td>
+                </tr>
+                <tr>
+                  <td>disabled</td>
+                  <td>Specifies that an input element should be disabled</td>
+                </tr>
+                <tr>
+                  <td>href</td>
+                  <td>Specifies the URL (web address) for a link</td>
+                </tr>
+                <tr>
+                  <td>id</td>
+                  <td>Specifies a unique id for an element</td>
+                </tr>
+                <tr>
+                  <td>src</td>
+                  <td>Specifies the URL (web address) for an image</td>
+                </tr>
+                <tr>
+                  <td>style</td>
+                  <td>Specifies an inline CSS style for an element</td>
+                </tr>
+                <tr>
+                  <td>title</td>
+                  <td>Specifies extra information about an element (displayed as a tool tip)</td>
+                </tr>
+              </tbody>
+            </table>
+          </p>
+        </div>
+        <hr>
+        <div>
+          <u><h3>Headings</h3></u>
+          <p>Headings are defined with the &lt;h1&gt; to &lt;h6&gt; tags.
+          &lt;h1&gt; defines the most important heading. &lt;h6&gt; defines the least important heading.</p>
+        </div>
+        <hr>
+        <div>
+          <u><h3>Comments</h3></u>
+          <p>Comment tags are used to insert comments in the HTML source code.</p>
+          <p class="comment">&lt;!--Comment is in here-->&gt;</p>
+        </div>
+        <hr>
+        <div>
+          <u><h3>Links</h3></u>
+          <p>HTML links are hyperlinks.
+          You can click on a link and jump to another document.
+          When you move the mouse over a link, the mouse arrow will turn into a little hand.<br>
+          <u>&lt;a href="http://example.com"&gt;&lt;a&gt;</u></p>
+        </div>
+        <hr>
+        <div>
+          <u><h3>Images</h3></u>
+          <ul>
+            <li><strong>HTML Images Syntax</strong>
+              <p>In HTML, images are defined with the &lt;img&gt; tag.
+              The &lt;img&gt; tag is empty, it contains attributes only, and does not have a closing tag.<br>
+              The src attribute specifies the URL (web address) of the image:<br>
+              <u>&lt;img src="url" alt="some_text" style="width:width;height:height;"&gt;</u></p></li>
+            <li><strong>Images in another folder</strong>
+              <p>If not specified, the browser expects to find the image in the same folder as the web page. However, it is common to store images in a sub-folder.<br> You must then include the folder name in the src attribute:<br>
+                <u>&lt;img src="/images/html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;"&gt;</u></p></li>
+            <li><strong>Images on another server</strong>
+              <p>Some web sites store their images on image servers.
+              You can access images from any web address in the world:<br>
+              <u>&lt;img src="https://www.w3schools.com/images/green.jpg" alt="W3Schools.com"&gt;</u></p></li>
+          </ul>
+        </div>
+        <hr>
+        <div>
+          <h3><u>Head</u></h3>
+          <ul>
+            <li><strong>&lt;head&gt; tag</strong>
+              <p>The &lt;head&gt; element is a container for metadata and is placed between the &lt;html&gt; tag and the &lt;body&gt; tag.
+              HTML metadata is data about the HTML document. Metadata is not displayed.<br>
+              Metadata typically define the document title, character set, styles, links, scripts, and other meta information.
+              The following tags describe metadata: &lt;title>, &lt;style>, &lt;meta>, &lt;link>, &lt;script>, and &lt;base>.</p></li>
+            <li><strong>&lt;title&gt; tag</strong>
+              <p>defines a title in the browser tab, provides a title for the page when it is added to favorites, displays a title for the page in search engine results</p></li>
+            <li><strong>&lt;meta&gt; tag</strong>
+              <p>The element is used to specify which character set is used, page description, keywords, author, and other metadata.
+              Metadata is used by browsers (how to display content), by search engines (keywords), and other web services.</p></li>
+          </ul>
+        </div>
+      </section>
+      <h2>CSS</h2>
+      <section>
+        <div>
+          <h3><u>Syntax</u></h3>
+          <p>A CSS rule-set consists of a selector and a declaration block:<br>
+            The selector points to the HTML element you want to style.
+          The declaration block contains one or more declarations separated by semicolons.
+          Each declaration includes a CSS property name and a value, separated by a colon.<br>
+          A CSS declaration always ends with a semicolon, and declaration blocks are surrounded by curly braces.</p>
+          <p>The <strong>element selector</strong> selects elements based on the element name.
+          You can select all &lt;p> elements on a page like this.</p>
+          <p>G<strong>roup selectors</strong> with the same style definitions(h1, h3, p)</p>
+          <p>CSS Comments are written like this:</p>
+          <p class="comment">/* comment */</p>
+        </div>
+        <hr>
+        <div>
+          <h3><u>Colors</u></h3>
+          <p>You can define a color by name or by a hexdecimal code.</p>
+        </div>
+        <hr>
+        <div>
+          <h3><u>Background</u></h3>
+          <p><table class="tabel table-striped">
+              <thead>
+                <tr>
+                  <th style="width: 45%">Property</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>background-color:</td>
+                  <td>set a color as background</td>
+                </tr>
+                <tr>
+                  <td>background-image: url("")</td>
+                  <td>set an image as background</td>
+                </tr>
+                <tr>
+                  <td>background-repeat: reapeat-y|-x</td>
+                  <td>repeats an image only horizomtally or vertically</td>
+                </tr>
+                <tr>
+                  <td>background-attachment: fixed</td>
+                  <td>sets the picture on a fix position</td>
+                </tr>
+              </tbody>
+            </table>
+          </p>
+        </div>
+        <hr>
+        <div>
+          <h3><u>Text</u></h3>
+          <p><table class="tabel table-striped">
+              <thead>
+                <tr>
+                  <th style="width: 30%">Property</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>text-color:</td>
+                  <td>set a text color</td>
+                </tr>
+                <tr>
+                  <td>text-alignment:</td>
+                  <td>set the text passage in center or elsewhere</td>
+                </tr>
+                <tr>
+                  <td>text-decoration:</td>
+                  <td>underline, overline ans do on your text</td>
+                </tr>
+                <tr>
+                  <td>text-transform:</td>
+                  <td>capitalize or lowercase and so on your text</td>
+                </tr>
+              </tbody>
+            </table>
+          </p>
+        </div>
+        <hr>
+        <div>
+          <h3><u>Font</u></h3>
+          <p><a href="https://www.w3schools.com/css/css_font.asp">More about Fonts</a></p>
+        </div>
+        <hr>
+        <div>
+          <h3><u>Combinators</u></h3>
+          <p><a href="https://www.w3schools.com/css/css_combinators.asp">More about Combinators</a></p>
+        </div>
+        <hr>
+        <div>
+          <h3><u>Pseudo classes</u></h3>
+          <p><a href="https://www.w3schools.com/css/css_pseudo_classes.asp">More about Pseudo classes</a></p>
+        </div>
+      </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
